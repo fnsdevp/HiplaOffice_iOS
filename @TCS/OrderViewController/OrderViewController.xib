@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrderViewController">
+            <connections>
+                <outlet property="button_OrderReceived" destination="eRH-KQ-r3k" id="Nr3-cF-mtj"/>
+                <outlet property="lbl_Etd" destination="cMa-Ib-veo" id="pWd-15-MHF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OMN-kY-7XD">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="oAY-bN-uEF">
+                            <rect key="frame" x="8" y="20" width="76" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="76" id="dfU-5t-vtR"/>
+                                <constraint firstAttribute="height" constant="64" id="ycq-Vc-M82"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="oAY-bN-uEF" firstAttribute="top" secondItem="OMN-kY-7XD" secondAttribute="top" constant="20" id="9tf-0b-cHL"/>
+                        <constraint firstAttribute="height" constant="88" id="FVd-pe-SNL"/>
+                        <constraint firstItem="oAY-bN-uEF" firstAttribute="leading" secondItem="OMN-kY-7XD" secondAttribute="leading" constant="8" id="G8y-AV-jtZ"/>
+                        <constraint firstAttribute="bottom" secondItem="oAY-bN-uEF" secondAttribute="bottom" constant="4" id="dJ8-rh-j42"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRH-KQ-r3k">
+                    <rect key="frame" x="13" y="121" width="295" height="35"/>
+                    <color key="backgroundColor" red="0.0" green="0.67450980390000004" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="YGP-xU-T9I"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title="Order Received">
+                        <color key="titleColor" red="0.98431372549999996" green="0.98431372549999996" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnAction_OrderReceived:" destination="-1" eventType="touchUpInside" id="RpK-cP-stK"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="estimate time to delivered : 30 mins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMa-Ib-veo">
+                    <rect key="frame" x="13" y="180" width="295" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="4hF-gV-Eb5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OMN-kY-7XD" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="-20" id="1Rs-5w-Vhi"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="cMa-Ib-veo" secondAttribute="bottom" constant="344" id="3YB-2n-pYQ"/>
+                <constraint firstItem="eRH-KQ-r3k" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="13" id="CAQ-MV-8Kq"/>
+                <constraint firstItem="eRH-KQ-r3k" firstAttribute="centerX" secondItem="OMN-kY-7XD" secondAttribute="centerX" id="LHu-iz-Wqq"/>
+                <constraint firstItem="OMN-kY-7XD" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="bqY-oN-2j1"/>
+                <constraint firstItem="cMa-Ib-veo" firstAttribute="top" secondItem="eRH-KQ-r3k" secondAttribute="bottom" constant="24" id="esx-In-j6i"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="cMa-Ib-veo" secondAttribute="trailing" constant="12" id="gkz-mt-9uw"/>
+                <constraint firstItem="OMN-kY-7XD" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="lGQ-iT-kVn"/>
+                <constraint firstItem="eRH-KQ-r3k" firstAttribute="top" secondItem="OMN-kY-7XD" secondAttribute="bottom" constant="33" id="qFR-JA-KTu"/>
+                <constraint firstItem="eRH-KQ-r3k" firstAttribute="leading" secondItem="cMa-Ib-veo" secondAttribute="leading" id="uCB-aO-9Dt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="7" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="333" height="333"/>
+    </resources>
+</document>

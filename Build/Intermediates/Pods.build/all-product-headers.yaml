@@ -1,0 +1,691 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireObjectMapper-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireObjectMapper-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/AlamofireObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "KeychainAccess-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "KeychainAccess-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/KeychainAccess/KeychainAccess-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/KeychainAccess.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MBProgressHUD-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBProgressHUD-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBProgressHUD.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MBProgressHUD/MBProgressHUD.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/MBProgressHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/MQTTClient/MQTTClient.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ForegroundReconnection.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/ForegroundReconnection.h"
+        },
+        {
+          'type': 'file',
+          'name': "GCDTimer.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/GCDTimer.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTCFSocketDecoder.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTCFSocketDecoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTCFSocketEncoder.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTCFSocketEncoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTCFSocketTransport.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTCFSocketTransport.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTClient-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/MQTTClient/MQTTClient.framework/Headers/MQTTClient-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTClient-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/MQTTClient/MQTTClient-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTClient.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTCoreDataPersistence.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTCoreDataPersistence.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTDecoder.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTDecoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTInMemoryPersistence.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTInMemoryPersistence.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTLog.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTLog.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTMessage.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTPersistence.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTPersistence.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTProperties.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTProperties.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTSSLSecurityPolicy.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSSLSecurityPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTSSLSecurityPolicyDecoder.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyDecoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTSSLSecurityPolicyEncoder.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyEncoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTSSLSecurityPolicyTransport.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyTransport.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTSession.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSession.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTSessionLegacy.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSessionLegacy.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTSessionManager.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTSessionSynchron.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSessionSynchron.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTStrict.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTStrict.h"
+        },
+        {
+          'type': 'file',
+          'name': "MQTTTransport.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/MQTTTransport.h"
+        },
+        {
+          'type': 'file',
+          'name': "ReconnectTimer.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/MQTTClient/MQTTClient/MQTTClient/ReconnectTimer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/MQTTClient/MQTTClient.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/MQTTClient.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Pods__TCS.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-@TCS-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/Pods-@TCS/Pods-@TCS-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods__TCS-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Pods__TCS.framework/Headers/Pods__TCS-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Pods__TCS.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-@TCS.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/SOMotionDetector/SOMotionDetector.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SOLocationManager.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/SOMotionDetector/SOMotionDetector/SOLocationManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SOMotionDetector-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/SOMotionDetector/SOMotionDetector.framework/Headers/SOMotionDetector-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SOMotionDetector-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/SOMotionDetector/SOMotionDetector-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SOMotionDetector.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/SOMotionDetector/SOMotionDetector/SOMotionDetector.h"
+        },
+        {
+          'type': 'file',
+          'name': "SOStepDetector.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/SOMotionDetector/SOMotionDetector/SOStepDetector.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/SOMotionDetector/SOMotionDetector.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/SOMotionDetector.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/SparkSDK/SparkSDK.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SparkSDK-Bridging-Header.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/SparkSDK/Source/Utils/SparkSDK-Bridging-Header.h"
+        },
+        {
+          'type': 'file',
+          'name': "SparkSDK-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/SparkSDK/SparkSDK.framework/Headers/SparkSDK-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SparkSDK-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/SparkSDK/SparkSDK-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/SparkSDK/SparkSDK.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/SparkSDK.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Starscream/Starscream.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Starscream-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Starscream-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Starscream/Starscream.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/Starscream.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Toast/Toast.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Toast-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Toast/Toast.framework/Headers/Toast-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Toast-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/Toast/Toast-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+Toast.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Toast/Toast/Toast/UIView+Toast.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/Toast/Toast.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/Toast.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/UIImageView-AGCInitials/UIImageView_AGCInitials.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AGCInitialsColors.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/UIImageView-AGCInitials/Pod/Classes/AGCInitialsColors.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+AGCInitials.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/UIImageView-AGCInitials/Pod/Classes/UIImageView+AGCInitials.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView-AGCInitials-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/UIImageView-AGCInitials/UIImageView-AGCInitials-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView_AGCInitials-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/UIImageView-AGCInitials/UIImageView_AGCInitials.framework/Headers/UIImageView_AGCInitials-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/UIImageView-AGCInitials/UIImageView_AGCInitials.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/UIImageView-AGCInitials.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/VeeContactPicker/VeeContactPicker.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSBundle+VeeContactPicker.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Utils and categories/NSBundle+VeeContactPicker.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSObject+VeeCommons.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Utils and categories/NSObject+VeeCommons.h"
+        },
+        {
+          'type': 'file',
+          'name': "UILabel+VeeBoldify.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Utils and categories/UILabel+VeeBoldify.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeABDelegate.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Controller/Address Book/VeeABDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeABRecord.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/VeeABRecord.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeABRecordsImporter.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Controller/Address Book/VeeABRecordsImporter.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeAddressBook.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Controller/Address Book/VeeAddressBook.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeCommons.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Utils and categories/VeeCommons.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContact.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/VeeContact.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactCellConfiguration.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Controller/ViewController/UITableViewCells/VeeContactCellConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactFactory.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/VeeContact Abstract Factory/VeeContactFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactFactoryProt.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/VeeContact Abstract Factory/VeeContactFactoryProt.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactPicker-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/VeeContactPicker/VeeContactPicker.framework/Headers/VeeContactPicker-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactPicker-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/VeeContactPicker/VeeContactPicker-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactPickerAppearanceConstants.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/ContactPicker/VeeContactPickerAppearanceConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactPickerDelegate.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Controller/ViewController/VeeContactPickerDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactPickerOptions.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/ContactPicker/VeeContactPickerOptions.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactPickerStrings.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/ContactPicker/VeeContactPickerStrings.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactPickerViewController.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Controller/ViewController/VeeContactPickerViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactProt.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/VeeContactProt.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactProtFactoryProducer.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/VeeContact Abstract Factory/VeeContactProtFactoryProducer.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeContactTableViewCell.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Controller/ViewController/UITableViewCells/VeeContactTableViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeePostalAddress.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/VeePostalAddress.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeePostalAddressProt.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/VeePostalAddressProt.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeSectionable.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Model/VeeSectionable.h"
+        },
+        {
+          'type': 'file',
+          'name': "VeeSectionedArrayDataSource.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/VeeContactPicker/VeeContactPicker/Classes/Controller/ViewController/View Controller utils/VeeSectionedArrayDataSource.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/VeeContactPicker/VeeContactPicker.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/VeeContactPicker.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/WWCalendarTimeSelector/WWCalendarTimeSelector.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "WWCalendarTimeSelector-Swift.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/WWCalendarTimeSelector/WWCalendarTimeSelector.framework/Headers/WWCalendarTimeSelector-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "WWCalendarTimeSelector-umbrella.h",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Pods/Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fnspl/Desktop/Hipla Office new/Build/Products/Debug-iphoneos/WWCalendarTimeSelector/WWCalendarTimeSelector.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fnspl/Desktop/Hipla Office new/Build/Intermediates/Pods.build/Debug-iphoneos/WWCalendarTimeSelector.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

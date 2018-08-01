@@ -1,0 +1,6 @@
+framework module Pods__TCSTests {
+  umbrella header "Pods-@TCSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

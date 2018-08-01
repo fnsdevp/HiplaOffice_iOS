@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController">
+            <connections>
+                <outlet property="imgview_logo" destination="vHj-DJ-qaf" id="zEz-rf-Gbn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashBG.png" translatesAutoresizingMaskIntoConstraints="NO" id="kyY-Ns-Dd3">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hiplaIconNew.png" translatesAutoresizingMaskIntoConstraints="NO" id="vHj-DJ-qaf">
+                    <rect key="frame" x="80" y="204" width="160" height="160"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="160" id="4Zr-r7-I7s"/>
+                        <constraint firstAttribute="width" constant="160" id="9hb-LM-5uS"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kyY-Ns-Dd3" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="0ch-ne-mkU"/>
+                <constraint firstItem="kyY-Ns-Dd3" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="9KL-ct-aOL"/>
+                <constraint firstAttribute="top" secondItem="kyY-Ns-Dd3" secondAttribute="top" id="Ijh-Pz-2f6"/>
+                <constraint firstItem="vHj-DJ-qaf" firstAttribute="centerY" secondItem="Q5M-cg-NOt" secondAttribute="centerY" constant="-10" id="KwS-6X-Gho"/>
+                <constraint firstItem="kyY-Ns-Dd3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="M41-VL-QNT"/>
+                <constraint firstItem="kyY-Ns-Dd3" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="ToY-k0-Qe3"/>
+                <constraint firstItem="kyY-Ns-Dd3" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="VbC-HZ-gD3"/>
+                <constraint firstItem="vHj-DJ-qaf" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="X4d-ss-o6G"/>
+                <constraint firstItem="kyY-Ns-Dd3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cZJ-nd-Rv2"/>
+                <constraint firstItem="kyY-Ns-Dd3" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="ds8-Iy-st5"/>
+                <constraint firstItem="kyY-Ns-Dd3" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="gBN-m1-QOx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hiplaIconNew.png" width="192" height="192"/>
+        <image name="splashBG.png" width="1242" height="2208"/>
+    </resources>
+</document>

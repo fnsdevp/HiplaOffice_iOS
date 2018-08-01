@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NetPopViewController">
+            <connections>
+                <outlet property="txtView_pop" destination="gJP-Wd-63Y" id="rxO-NK-wUQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="61q-r8-yo1">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NetIssue.png" translatesAutoresizingMaskIntoConstraints="NO" id="zR1-Oe-Qp6">
+                            <rect key="frame" x="47" y="76" width="225" height="120"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="225" id="9rX-Y6-Lt4"/>
+                                <constraint firstAttribute="height" constant="120" id="e0m-dx-SSN"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Whhops.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bl1-bd-m1w">
+                            <rect key="frame" x="30" y="209" width="261" height="66"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="261" id="G7j-Ie-KAQ"/>
+                                <constraint firstAttribute="height" constant="66" id="qTn-3e-SkJ"/>
+                            </constraints>
+                        </imageView>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="No internet connection found.Check your connection and  then try to" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gJP-Wd-63Y">
+                            <rect key="frame" x="40" y="273" width="240" height="67"/>
+                            <color key="backgroundColor" red="0.96854275465011597" green="0.96868163347244263" blue="0.96851247549057007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="240" id="9zm-FF-Gm8"/>
+                                <constraint firstAttribute="height" constant="67" id="gnd-1s-DET"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHH-Y8-00R">
+                            <rect key="frame" x="123" y="348" width="74" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="FGD-hI-gha"/>
+                                <constraint firstAttribute="width" constant="74" id="rfn-lP-NUj"/>
+                            </constraints>
+                            <state key="normal" title="Reconnect"/>
+                            <connections>
+                                <action selector="btnAction_Reconnect:" destination="-1" eventType="touchUpInside" id="UHM-nP-ZWw"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96854275465011597" green="0.96868163347244263" blue="0.96851247549057007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Bl1-bd-m1w" firstAttribute="centerY" secondItem="61q-r8-yo1" secondAttribute="centerY" constant="-42" id="6bg-Wz-WE3"/>
+                        <constraint firstItem="tHH-Y8-00R" firstAttribute="centerX" secondItem="61q-r8-yo1" secondAttribute="centerX" id="GAA-Zm-AWb"/>
+                        <constraint firstItem="Bl1-bd-m1w" firstAttribute="centerX" secondItem="61q-r8-yo1" secondAttribute="centerX" id="PAT-bA-n3X"/>
+                        <constraint firstItem="gJP-Wd-63Y" firstAttribute="centerY" secondItem="61q-r8-yo1" secondAttribute="centerY" constant="22.5" id="Ps7-7z-6ZY"/>
+                        <constraint firstItem="zR1-Oe-Qp6" firstAttribute="centerX" secondItem="61q-r8-yo1" secondAttribute="centerX" id="UAt-dm-QG0"/>
+                        <constraint firstItem="tHH-Y8-00R" firstAttribute="centerY" secondItem="61q-r8-yo1" secondAttribute="centerY" constant="79" id="UPq-0g-aW8"/>
+                        <constraint firstItem="gJP-Wd-63Y" firstAttribute="centerX" secondItem="61q-r8-yo1" secondAttribute="centerX" id="iMp-1T-pux"/>
+                        <constraint firstItem="zR1-Oe-Qp6" firstAttribute="centerY" secondItem="61q-r8-yo1" secondAttribute="centerY" constant="-148" id="wGV-ou-Vja"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="61q-r8-yo1" secondAttribute="bottom" id="IMd-uO-Ma0"/>
+                <constraint firstItem="61q-r8-yo1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="PyV-gb-6qT"/>
+                <constraint firstItem="61q-r8-yo1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gAq-Sk-rRH"/>
+                <constraint firstAttribute="trailing" secondItem="61q-r8-yo1" secondAttribute="trailing" id="x5V-mk-WPJ"/>
+            </constraints>
+            <point key="canvasLocation" x="42" y="65"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="NetIssue.png" width="264" height="187"/>
+        <image name="Whhops.png" width="294" height="63"/>
+    </resources>
+</document>

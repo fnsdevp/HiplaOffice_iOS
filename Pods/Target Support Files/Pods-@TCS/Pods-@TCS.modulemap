@@ -1,0 +1,6 @@
+framework module Pods__TCS {
+  umbrella header "Pods-@TCS-umbrella.h"
+
+  export *
+  module * { export * }
+}
